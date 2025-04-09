@@ -16,11 +16,10 @@ API desenvolvida em **FastAPI** para integração com a plataforma [Wayv](https:
 
 ## ⚙️ Instalação
 
-bash
-git clone https://github.com/seu-usuario/wayv-api.git  
+<pre lang="bash"><code>git clone https://github.com/seu-usuario/wayv-api.git  
 cd wayv-api   
 pip install -r requirements.txt  
-
+</code></pre>
 
 ## 📂 Endpoints Disponíveis
 
@@ -32,9 +31,10 @@ Envia uma planilha .xlsx com as colunas:
 - `E-mail`  
 - `Celular`  
 
-<pre lang="bash"><code> bash curl -X 'POST' 
-  'http://localhost:8000/upload-excel' 
-  -F 'file=@/caminho/para/arquivo.xlsx' </code></pre>
+<pre lang="bash"><code>bash curl -X 'POST' 
+'http://localhost:8000/upload-excel' 
+-F 'file=@/caminho/para/arquivo.xlsx' 
+</code></pre>
   
 **GET /participants?gender=feminino**  
 Retorna todos os participantes cadastrados, com opção de filtro por sexo (masculino, feminino, outros).  
