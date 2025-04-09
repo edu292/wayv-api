@@ -16,7 +16,7 @@ API desenvolvida em **FastAPI** para integração com a plataforma [Wayv](https:
 
 ## ⚙️ Instalação
 
-<pre lang="bash"><code>git clone https://github.com/seu-usuario/wayv-api.git  
+<pre lang="bash"><code>git clone https://github.com/edu292/wayv-api.git  
 cd wayv-api   
 pip install -r requirements.txt  
 </code></pre>
@@ -57,6 +57,7 @@ Remove todos os registros do banco de dados.
 
 
 
-Acesse a documentação interativa em:  
-Swagger UI: http://localhost:8000/docs  
-Redoc: http://localhost:8000/redoc  
+
+### Acesse a documentação interativa em:  
+**Swagger UI: http://localhost:8000/docs**  
+**Redoc: http://localhost:8000/redoc**  
