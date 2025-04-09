@@ -12,7 +12,7 @@ API desenvolvida em **FastAPI** para integração com a plataforma [Wayv](https:
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [SQLite](https://www.sqlite.org/index.html)
 - [Pandas](https://pandas.pydata.org/)
-- [Uvicorn](https://www.uvicorn.org/) (Servidor ASGI)
+- [Uvicorn](https://www.uvicorn.org/)
 
 ## ⚙️ Instalação
 
@@ -42,6 +42,7 @@ Retorna todos os participantes cadastrados, com opção de filtro por sexo (masc
 
 **PUT /participants**  
 Atualiza a data de nascimento com base em email, nome completo ou telefone.  
+Sendo os parametros correpondestes para o by definidas como email, full_name, phone
 <pre lang="json"><code>
   { 
     "identifier": "exemplo@email.com",
